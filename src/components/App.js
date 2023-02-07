@@ -19,7 +19,6 @@ function App(){
     <div className="bottom">
       <p>+435 763 980</p>
       <p>oladejo@gmail.com</p>
-
     </div>
 
   </div>
