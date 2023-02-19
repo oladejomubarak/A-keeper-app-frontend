@@ -11,6 +11,10 @@ function App() {
     setNotes(previousNotes=>{
       return [...previousNotes, newNote]
     });
+  
+
+  }
+  function deleteNote(id){
 
   }
   return (
@@ -21,6 +25,7 @@ function App() {
         return<Note
         title = {noteItem.title}
         content = {noteItem.content}
+        onDelete={deleteNote}
         />
       })}
       <Footer />
